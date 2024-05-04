@@ -4,7 +4,7 @@ on: [push]
 jobs:
   run_actions_test:
     runs-on: ubuntu-latest
-      steps:
+    steps:
         - name: Set up R
           uses: r-lib/actions/setup-r@v2
         
