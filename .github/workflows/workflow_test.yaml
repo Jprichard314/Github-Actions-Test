@@ -1,6 +1,5 @@
-on:
-  push:
-    branches: master
+name: test-github-actions
+on: [push]
     
 jobs:
   run_actions_test:
