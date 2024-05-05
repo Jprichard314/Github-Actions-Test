@@ -25,7 +25,7 @@ jobs:
               any::quarto
             
         - name: run
-          run: Rscript -e "source('Run.R'"
+          run: Rscript -e "source('Run.R')"
           
         - name: Commit
           run: |
