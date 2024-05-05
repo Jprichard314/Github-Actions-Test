@@ -1,0 +1,10 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|de366f73b29ea0b7|||||||||||||||
+getData_cartoDbMonthQuery|function|27a240eeb061d574|||||||||||||||
+getData_fredDataSeries|function|734688d744d4da33|||||||||||||||
+getData_phlCartoApi|function|36a344caaa2a25f9|||||||||||||||
+render_test|stem|8c9fc38e594f49e5|b95ee277a054a4b7|2c530c1562a7fbd1|362866338|index.html*index_files*index.qmd|t19848.7352792297s|a68bea0945e5b1bc|862249|file|local|vector|||7.3||
+test|stem|11f3416c042e30d8|389c2f70bf21b796|a70d818dda327ae7|1839796588||t19848.72184543s|7dde4823789330a0|233|rds|local|vector|||0.01||
+test_function_one|function|475cb76d1533b5ae|||||||||||||||
+test_function_two|function|4cf3e68e0b3563dd|||||||||||||||
+test2|stem|6eba145f8b2c3bd4|b8e726a43633ca7d|8374e804b94b4a87|-660517842||t19848.7218518915s|eb79c6827188e2e4|1481|rds|local|vector|||0.51||

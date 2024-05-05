@@ -1,0 +1,34 @@
+---
+title: "Test Quarto Refresh"
+format: html
+editor: visual
+---
+
+```{r}
+#| echo: false
+#| output: false
+
+source('R/libraries.R')
+
+targets::tar_load_everything()
+
+
+```
+
+
+# Quarto Test
+
+This is a test using targets, quarto, and GitHub Actions to refresh a report served as a website.
+
+
+
+```{r}
+temp <- 
+  test2 %>%
+    nrow()
+
+temp
+
+```
+
+Test2 returned with `{r} temp` rows
