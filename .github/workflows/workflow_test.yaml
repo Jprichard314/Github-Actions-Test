@@ -19,12 +19,13 @@ jobs:
             packages: |
               any::tidyverse
               any::httr
+              any::targets
+              any::tarchetypes
+              any::targets
+              any::quarto
             
         - name: run
-          run: Rscript -e "source('R/test.R')"
-
-        - name: run
-          run: Rscript -e "source('R/test2.R')"
+          run: Rscript -e "source('Run.R'"
           
         - name: Commit
           run: |
