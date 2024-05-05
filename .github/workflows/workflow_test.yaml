@@ -23,6 +23,9 @@ jobs:
               any::tarchetypes
               any::targets
               any::quarto
+        
+        - name: get_quarto
+          uses: quarto-dev/quarto-actions/setup@v2
             
         - name: run
           run: Rscript -e "source('Run.R')"
